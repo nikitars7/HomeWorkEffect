@@ -12,8 +12,6 @@ function App() {
   return (
     <div className="App">
       <ToDoList usersToDo={usersToDo} getUsersToDo={getUsersToDo} />
-      <ToDoList usersToDo={usersToDo} getUsersToDo={getUsersToDo} />
-      <ToDoList usersToDo={usersToDo} getUsersToDo={getUsersToDo} />
     </div>
   );
 }
