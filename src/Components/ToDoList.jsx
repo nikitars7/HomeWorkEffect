@@ -4,7 +4,7 @@ const ToDoList = (props) => {
   const { usersToDo, getUsersToDo } = props;
   useEffect(
     () => getUsersToDo("https://jsonplaceholder.typicode.com/comments"),
-    [getUsersToDo]
+    []
   );
   return (
     <div>

@@ -4,6 +4,7 @@
    margin: 10px;
    transition: all 0.3s ease 0s;
    cursor: pointer;
+   padding:20px;
 }
 .Users:hover{
   transform:scale(1.1);
