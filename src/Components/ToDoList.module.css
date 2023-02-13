@@ -1,0 +1,23 @@
+.Users{
+   text-align: center;
+   border: 1px solid #000;
+   margin: 10px;
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+}
+.Users:hover{
+  transform:scale(1.1);
+  background-color:aliceblue;
+  
+}
+  p:first-child{
+  color:red
+ }
+ p:nth-child(2){
+   color:Blue
+  }
+  p:last-child{
+   color:green
+  }
+   
+
