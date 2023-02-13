@@ -2,7 +2,7 @@
   "name": "ue",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikitars7.github.io/HomeWorkState/",
+  "homepage": "https://nikitars7.github.io/HomeWorkEffect/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
