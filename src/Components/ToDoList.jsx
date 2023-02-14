@@ -1,11 +1,5 @@
 import styles from "./ToDoList.module.css";
-import { useEffect } from "react";
-const ToDoList = (props) => {
-  const { usersToDo, getUsersToDo } = props;
-  useEffect(
-    () => getUsersToDo("https://jsonplaceholder.typicode.com/comments"),
-    []
-  );
+const ToDoList = ({ usersToDo }) => {
   return (
     <div>
       {usersToDo.map((user) => (
